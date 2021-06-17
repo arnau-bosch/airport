@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airports",
+  "info": {
+    "name": "airport",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "iata": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}
